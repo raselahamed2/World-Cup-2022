@@ -1,0 +1,87 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400&family=Finlandica:ital,wght@1,500&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,400;1,100;1,200;1,400&family=Oswald:wght@300;400;500&family=Poppins:ital,wght@0,300;1,500&display=swap');
+
+
+body{
+    font-family: 'Cormorant SC', serif;
+}
+/* -----------------
+    banner section
+ ------------------- */
+ .container{
+    width: 80%;
+    height: 380px;
+    background-color: #161616;
+    align-items: center;
+    display: flex;
+    margin-left: 140px;
+    margin-right: 139px;
+    margin-top: 56px;
+    border-radius: 30px;
+ }
+ .container-title{
+    width: 80%;
+    color: #FFFFFF;
+    padding-left: 110px;
+ }
+.container-text{
+    font-size: 16px;
+}
+ h1{
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .ancor{
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: darkred;
+    padding: 10px 20px;
+    border-radius: 5px;
+ }
+ .ancor i{
+    padding: 10px;
+    font-size: 15px;
+
+ }
+ .container-img{
+    width: 80%;
+    padding-left: 50%;
+    padding-top: 33px;
+    padding-right: 90px;
+ }
+
+/* ----------------
+     blog section 
+-------------------- */
+
+.content{
+    margin-top: 124px;
+    margin-left: 140px;
+}
+.blogs{
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+.blogs a{
+    text-decoration: none;
+    color: black;
+    background-color: #FFFFFF;
+    padding: 20px 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+#blog-a {
+    background-color: darkred;
+    font-weight: 600;
+    color: #FFFFFF;
+}
