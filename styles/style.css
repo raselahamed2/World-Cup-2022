@@ -59,6 +59,9 @@ body{
     margin-top: 124px;
     margin-left: 140px;
 }
+.content-player{
+    display: flex;
+}
 .blogs{
     width: 312px;
     height: 312px;
@@ -80,8 +83,30 @@ body{
     font-weight: 500;
     font-size: 20px;
 }
+.selebretion{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-left: 70px;
+    margin-right: 140px;
+}
 #blog-a {
     background-color: darkred;
     font-weight: 600;
     color: #FFFFFF;
 }
+.course-transfar{
+    font-weight: 500;
+    font-size: 16px;
+}
+.course-time{
+    width: 143px;
+    height: 26px;
+    display: flex;
+    gap: 50px;
+}
+.courses-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
