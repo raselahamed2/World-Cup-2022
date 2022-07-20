@@ -6,6 +6,10 @@
 body{
     font-family: 'Cormorant SC', serif;
 }
+
+/*-------------------
+ Section World Cup 1 
+ --------------------*/
 /* -----------------
     banner section
  ------------------- */
@@ -19,17 +23,24 @@ body{
     margin-right: 139px;
     margin-top: 56px;
     border-radius: 30px;
+    animation-name: contain;
+    animation-name: example;
+    animation-duration: 1s;
  }
  .container-title{
-    width: 80%;
+    width: 100%;
     color: #FFFFFF;
-    padding-left: 110px;
+    padding-left: 100px;
+    position: relative;
+ }
+ span{
+    color: fuchsia;
  }
 .container-text{
-    font-size: 16px;
+    font-size: 1em;
 }
  h1{
-    font-size: 30px;
+    font-size: 3em;
     font-weight: 700;
  }
  .ancor{
@@ -45,10 +56,12 @@ body{
 
  }
  .container-img{
-    width: 80%;
+    width: 100%;
+    display: block;
     padding-left: 50%;
-    padding-top: 33px;
-    padding-right: 90px;
+    padding-top: 45px;
+    animation-name: img;
+    animation-duration: 20s;
  }
 
 /* ----------------
@@ -84,8 +97,8 @@ body{
     font-size: 20px;
 }
 .selebretion{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     padding: 24px;
     margin-right: 140px;
@@ -104,13 +117,11 @@ body{
     padding: 20px ;
     border-radius: 10px;
 }
-.courses-2{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 .course-transfar{
     font-weight: 500;
     font-size: 16px;
+    border: 1px solid red;
+    margin-right: 75%;
 }
 .course-time{
     width: 143px;
@@ -124,7 +135,7 @@ body{
 }
 
 /*-----------------
- footer section 
+   footer section 
  -----------------*/
  .footer{
     width: 100%;
@@ -158,15 +169,61 @@ body{
    font awsome icon 
    -----------------*/
 
-.social-icon {
+.social-icon{
     color: darkred;
     text-align: center;
     padding-top: 100px;
     font-size: 20px;
-    padding-right: 40%;
-    padding-left: 20%;
     font-size: 30px;
 }
 .fa-facebook-f{
     padding-left: 60px;
 }
+
+/*-------------------
+ Section World Cup 2
+ --------------------*/
+ /*----------------
+     Img Section 
+  -----------------*/
+ .play{
+    text-align: center;
+    color: #161616;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15%;
+    font-size: 20px;
+    font-weight: 700;
+ }
+ .match-start{
+    width: 100%;
+    display: flex;
+    height: 80px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+ }
+ .Cup{
+    color:deeppink;
+ }
+ 
+ /*-------------------
+    Animition Section 
+  -------------------*/
+
+@keyframes img {
+    0%   {width: 150px;}
+}
+
+/*-----------------
+    Media Query 
+ ----------------*/
+
+/* Small Device */
+
+  @media only screen and (max-width: 576px) {
+   .media{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+   }
+  }
