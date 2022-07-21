@@ -36,6 +36,13 @@ body{
  span{
     color: fuchsia;
  }
+ .madia{
+   width: 100%;
+   color: #FFFFFF;
+   padding-left: 100px;
+   position: relative;
+
+ }
 .container-text{
     font-size: 1em;
 }
